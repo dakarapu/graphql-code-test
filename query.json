@@ -1,0 +1,10 @@
+{
+    "httpMethod": "POST",
+    "path": "/",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "requestContext": {},
+    "body": "{\"query\":\"{\\n  posts {\\n    id\\n    userId\\n    title\\n    body\\n    comments {\\n        id\\n        postId\\n        email\\n        body\\n    }\\n  }\\n}\\n\\n\",\"variables\":{}}"
+  }
+  
